@@ -1,0 +1,18 @@
+body {
+    width: 800px;
+    margin: auto;
+}
+
+#top {
+    text-align: right;
+}
+
+
+#main {
+    text-align: center;
+    padding: 200px 0;
+}
+
+#bottom {
+    text-align: left;
+}
