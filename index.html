@@ -9,25 +9,37 @@
 
     <body>
         <div id="top">
-            <a href="#gmail">Gmail</a>
-            <a href="#images">Images</a>
-            <button>Sign in</button>
+            <ul>
+                <li><a href="#gmail">Gmail</a></li>
+                <li><a href="#images">Images</a></li>
+                <li><button class="sign" type="button" onclick="alert('Nu mai datz informatii la gugle!')">Sign in</button></li>
+            </ul>     
         </div>
         <div id="main">
             <img src="images/google-logo.png" alt="Google Logo">
             <form action="#sorry">
                 <input type="text">
-                <p><input type="submit" value="Google Search">
-                <input type="submit" value="I'm Feeling Lucky"></p>
-                <p>Google like homepage built by Andrei Lucu: <a href="#mywebsite">My Website</a> <a href="https://github.com/astamicu">GitHub</a></p>
+                <p><button class="search" type="button" onclick="alert('Nu mai cauta pr0n!')">Google Search</button>
+                <button class="search" type="button" onclick="alert('Asta a zis si ea cand te-a intalnit. Dar stim ca nu-i asa.')">I'm Feeling Lucky</button></p>
+                <p>Google like homepage built by Andrei Lucu: <a style="color: #1a0dab;" href="#mywebsite">My Website</a> <a style="color: #1a0dab;" href="https://github.com/astamicu">GitHub</a></p>
             </form>
         </div>
         <div id="bottom">
-            <a href="#advertising">Advertising</a>
-            <a href="#business">Business</a>
-            <a href="#about">About</a>
-            <a href="#howitworks">How Search Works</a>
-            <a href="#privacy" class="right">Privacy</a>
+            <!-- <span id='left'> -->
+            <ul>
+                <li><a href="#advertising">Advertising</a></li>
+                <li><a href="#business">Business</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#howitworks">How Search Works</a></li>
+            </ul>
+            <!-- </span>
+            <span id='right'> -->
+            <ul class='right'>
+                <li><a href="#privacy" class="right">Privacy</a></li>
+                <li><a href="#terms" class="right">Terms</a></li>
+                <li><a href="#settings" class="right">Settings</a></li>
+            </ul>
+            <!-- </span> -->
         </div>
     </body>
 </html>
