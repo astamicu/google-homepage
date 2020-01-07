@@ -1,0 +1,163 @@
+body {
+    /* width: 800px; */
+    margin: auto;
+}
+
+#top {
+    /* text-align: right; */
+    /* padding-top: 25px; */
+    /* padding-right: 15px;
+    padding-left: 25px; */
+    width: 1200px;
+}
+
+img {
+    padding-left: 20px;
+    padding-right: 30px;
+    vertical-align: middle;
+}
+
+.special {
+    padding: 0 5px;
+}
+
+#main {
+    width: 600px;
+    /* margin-left: 145px; */
+    font-size: 12px;
+    padding-left: 170px;
+}
+
+#result {
+    padding: 5px 0;
+}
+
+.title {
+    font-size: 18px;
+    color: blue;
+}
+
+.link {
+    font-size: 15px;
+    line-height: 0;
+    color: green;
+}
+
+.description {
+    line-height: 21px;
+}
+
+#peopleask {
+    margin-left: -20px;
+    padding-bottom: 20px;
+}
+
+#peopleask ul {
+    padding: 0;
+}
+
+#peopleask li {
+    display: list-item;
+    list-style-type: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+#peopleask a {
+    /* color: blue; */
+    font-size: 14px;
+}
+
+.lititle {
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+#bottom {
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+ul {
+    /* list-style-type: none; */
+    /* display: inline-block;
+    margin: 0;
+    padding-left: 30px; */
+}
+
+.topbar {
+    margin-left: 125px;
+    padding-right: 450px;
+    padding-top: -50px;
+    line-height: 0px;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.right {
+    text-align: right;
+    float: right;
+}
+
+li {
+    display: inline-block;
+    padding-right: 20px;
+    line-height: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-size: 12px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#bottom a {
+    color: #5f6368;
+}
+
+.sign {
+    background-color: #4285f4;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 12px;
+    line-height: 20px;
+    border: none;
+}
+
+input {
+    background-color: transparent;
+    width: 600px;
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+    line-height: 40px;
+    padding-left: 30px;
+    font-size: 16px;
+    margin: 20px 10px 0 0;
+}
+
+input:hover {
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.search {
+    background-color: #f2f2f2;
+    color: #5F6368;
+    font-size: 14px;
+    padding: 5px 15px;
+    line-height: 27px;
+    border: 1px solid #f2f2f2;
+    border-radius:4px;
+    margin-bottom: 10px;
+}
+
+.search:hover {
+    background-color: #f8f8f8;
+    color: #222;
+    border: 1px solid #c6c6c6;
+    cursor:pointer;
+}
