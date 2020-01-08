@@ -1,6 +1,7 @@
 body {
     /* width: 800px; */
     margin: auto;
+    font-family: arial, sans-serif;
 }
 
 #top {
@@ -24,7 +25,7 @@ img {
 #main {
     width: 600px;
     /* margin-left: 145px; */
-    font-size: 12px;
+    font-size: 14px;
     padding-left: 170px;
 }
 
@@ -33,12 +34,12 @@ img {
 }
 
 .title {
-    font-size: 18px;
+    font-size: 20px;
     color: blue;
 }
 
 .link {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 0;
     color: green;
 }
@@ -87,7 +88,7 @@ ul {
 }
 
 .topbar {
-    margin-left: 125px;
+    padding-left: 150px;
     padding-right: 450px;
     padding-top: -50px;
     line-height: 0px;
@@ -108,7 +109,7 @@ li {
 a {
     text-decoration: none;
     color: rgba(0,0,0,0.87);
-    font-size: 12px;
+    font-size: 14px;
 }
 
 a:hover {
@@ -135,8 +136,8 @@ input {
     border: 1px solid #dfe1e5;
     border-radius: 25px;
     line-height: 40px;
-    padding-left: 30px;
-    font-size: 16px;
+    padding-left: 20px;
+    font-size: 15px;
     margin: 20px 10px 0 0;
 }
 
@@ -160,4 +161,27 @@ input:hover {
     color: #222;
     border: 1px solid #c6c6c6;
     cursor:pointer;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.related li {
+    list-style-type: none;
+    display: list-item;
+    line-height: 23px;
+    
+}
+
+.related {
+    padding: 0;
+    columns: 2;
+}
+
+.related a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #0010ff;
 }
