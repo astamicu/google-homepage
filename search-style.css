@@ -9,7 +9,7 @@ body {
     /* padding-top: 25px; */
     /* padding-right: 15px;
     padding-left: 25px; */
-    width: 1200px;
+    width: 1100px;
 }
 
 img {
@@ -89,7 +89,7 @@ ul {
 
 .topbar {
     padding-left: 150px;
-    padding-right: 450px;
+    padding-right: 333px;
     padding-top: -50px;
     line-height: 0px;
     border-bottom: 1px solid #c6c6c6;
@@ -120,14 +120,21 @@ a:hover {
     color: #5f6368;
 }
 
+#bottom ul {
+    margin: 0;
+    padding-left: 170px;
+}
+
 .sign {
-    background-color: #4285f4;
+    background-color: #1a73e8;
     color: #fff;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 5px 12px;
-    line-height: 20px;
+    font-size: 13px;
+    padding: 8px 25px;
     border: none;
+    float: right;
+    border-radius: 5px;
+    margin: 30px 30px 0 0;
+    cursor: pointer;
 }
 
 input {
@@ -184,4 +191,82 @@ h2 {
     font-size: 14px;
     font-weight: bold;
     color: #0010ff;
+}
+
+#videos {
+    columns: 2;
+    margin: 0 0 25px -20px;
+    padding-left: 20px;
+
+}
+
+#videos img{
+    padding: 0;
+}
+
+#videos a {
+    font-size: 16px;
+    color: #0010ff;
+}
+
+.green {
+    color: green;
+}
+
+.gooogle {
+    padding-right: 12px;
+}
+
+#pagin {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#pagin a {
+    color: #4285f4;
+}
+
+.gul {
+    display: inline-block;
+    height: 38px;
+    background-image: url(https://www.google.com/images/nav_logo299.png); 
+    background-repeat: no-repeat; 
+    background-position: -24px 0;
+    width: 28px;
+}
+
+.oul {
+    display: inline-block;
+    height: 38px;
+    background-image: url(https://www.google.com/images/nav_logo299.png); 
+    background-repeat: no-repeat; 
+    background-position: -53px 0;
+    width: 20px;
+}
+
+.oulg {
+    display: inline-block;
+    height: 38px;
+    background-image: url(https://www.google.com/images/nav_logo299.png); 
+    background-repeat: no-repeat; 
+    background-position: -73px 0;
+    width: 20px;
+}
+
+.gleul {
+    display: inline-block;
+    height: 38px;
+    background-image: url(https://www.google.com/images/nav_logo299.png); 
+    background-repeat: no-repeat; 
+    background-position: -96px 0;
+    width: 45px;
+}
+
+.arrow {
+    display: inline-block;
+    height: 38px;
+    background-image: url(https://www.google.com/images/nav_logo299.png); 
+    background-repeat: no-repeat; 
+    background-position: -150px 0;
+    width: 45px;
 }
